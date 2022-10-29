@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
             child:  Text('Hello World'),
             decoration:  BoxDecoration(
               boxShadow: 
-              [
-              BoxShadow(
+             const [
+              BoxShadow (
                   color: Colors.black,
                   offset: Offset(10,5),
                   blurRadius: 20
